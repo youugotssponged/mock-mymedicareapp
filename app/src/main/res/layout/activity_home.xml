@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menubtn"
+        android:id="@+id/menuBtn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="50sp"
+        android:layout_marginLeft="65dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="85dp"
+        android:text="Hi!"
+        android:textSize="25sp"
+        android:id="@+id/actualName"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="150dp"
+        android:text="Here are some results from your last check"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="220dp"
+        android:text="Your last temperature."
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="200dp"
+        android:text="23oC"
+        android:textSize="50sp"
+        android:id="@+id/lastTemp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="300dp"
+        android:text="Your last blood pressure reading."
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="260dp"
+        android:text="80 (Lower)"
+        android:textSize="25sp"
+        android:id="@+id/lastBloodLower"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="310dp"
+        android:text="120 (Higher)"
+        android:textSize="25sp"
+        android:id="@+id/lastBloodHigher"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="400dp"
+        android:text="Your last heart rate."
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="225dp"
+        android:layout_marginTop="380dp"
+        android:text="72 bpm"
+        android:textSize="50sp"
+        android:id="@+id/lastHeartRate"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="500dp"
+        android:text="Ready for another check?"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/beginCheck_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginRight="25dp"
+        android:padding="25dp"
+        android:text="BEGIN HEALTH CHECK"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

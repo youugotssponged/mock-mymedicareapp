@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/backbtn"
+        android:id="@+id/backBtn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="50sp"
+        android:layout_marginLeft="60dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="85dp"
+        android:text="Register with us today!"
+        android:textSize="35sp" />
+
+    <!-- USERNAME ENTRY -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USERNAME"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="175dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="150dp"
+        android:id="@+id/usernameEntry"
+        />
+
+    <!-- EMAIL ENTRY -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="220dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="200dp"
+        android:id="@+id/emailEntry"
+        />
+
+    <!-- PASSWORD ENTRY -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="265dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="245dp"
+        android:id="@+id/passwordEntry"
+        />
+
+    <!-- PHONE NUMBER ENTRY -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PHONE NUMBER"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="310dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="290dp"
+        android:id="@+id/phoneNumberEntry"
+        />
+
+    <!-- GP NAME ENTRY -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GP NAME"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="355dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="335dp"
+        android:id="@+id/gpNameEntry"
+        />
+
+    <!-- GP NUMBER ENTRY -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GP NUMBER"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="400dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="380dp"
+        android:id="@+id/gpNumberEntry"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="500dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="440dp"
+        android:text="REGISTER"
+        android:id="@+id/mainRegister_btn"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap here to login instead!"
+        android:textColor="#ff0000"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="550dp"
+        android:id="@+id/loginlink"/>
+
+</RelativeLayout>

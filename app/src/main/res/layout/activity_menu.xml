@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menubtn"
+        android:id="@+id/menuBtn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="50sp"
+        android:layout_marginLeft="65dp"/>
+
+    <!-- BUTTONS -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="25dp"
+        android:padding="15dp"
+        android:text="HOME"
+        android:textSize="20sp"
+        android:id="@+id/menu_home_btn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginRight="115dp"
+        android:padding="15dp"
+        android:text="HEALTH CHECK"
+        android:textSize="20sp"
+        android:id="@+id/menu_healthCheck_btn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginRight="25dp"
+        android:padding="15dp"
+        android:text="PAST CHECKS"
+        android:textSize="20sp"
+        android:id="@+id/menu_pastChecks_btn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginRight="115dp"
+        android:padding="15dp"
+        android:text="Profile"
+        android:textSize="20sp"
+        android:id="@+id/menu_Profile_btn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="355dp"
+        android:layout_marginRight="25dp"
+        android:padding="15dp"
+        android:text="APPOINTMENTS"
+        android:textSize="20sp"
+        android:id="@+id/menu_appointments_btn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginRight="115dp"
+        android:padding="15dp"
+        android:text="Settings"
+        android:textSize="20sp"
+        android:id="@+id/menu_Settings_btn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginRight="15dp"
+        android:padding="25dp"
+        android:text="LOG OFF"
+        android:textSize="20sp"
+        android:id="@+id/menu_logoff_btn"/>
+
+</RelativeLayout>

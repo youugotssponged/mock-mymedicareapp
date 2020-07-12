@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MY MEDICARE</string>
+    <string name="reg_btn">REGISTER</string>
+    <string name="login_btn">LOGIN</string>
+
+    <string name="loremMain">
+        Suspendisse vitae volutpat nisi. Curabitur tortor leo,
+        venenatis nec tortor convallis, sagittis commodo libero. Suspendisse et
+        suscipit nibh. Orci varius natoque penatibus et magnis dis parturient
+        montes, nascetur ridiculus mus. Mauris finibus lobortis nibh sit amet varius.
+        Nulla blandit placerat tincidunt.
+    </string>
+
+    <string name="chooseBackground">Choose a Background Color</string>
+    <string-array name="BackgroundColors">
+        <item>White</item>
+        <item>Black</item>
+    </string-array>
+
+</resources>

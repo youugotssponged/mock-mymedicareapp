@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menubtn"
+        android:id="@+id/menuBtn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="50sp"
+        android:layout_marginLeft="65dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Font Sizing: "
+        android:textSize="25sp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/fontSizingSubHeading"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bold Text "
+        android:textSize="25sp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginTop="190dp"/>
+
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Background Color"
+        android:textSize="25sp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="285dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/BackgroundColors"
+        android:prompt="@string/chooseBackground"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="25dp"
+        android:id="@+id/backgroundColorChoice"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Foreground Color"
+        android:textSize="25sp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="380dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/BackgroundColors"
+        android:prompt="@string/chooseBackground"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginRight="25dp"
+        android:id="@+id/foregroundColorChoice"
+        />
+
+    <Button
+        android:id="@+id/settings_save_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginRight="25dp"
+        android:padding="15dp"
+        android:text="SAVE"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
